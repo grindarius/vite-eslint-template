@@ -15,5 +15,14 @@
       ""
     ],
     "description": "Generates Vue SPA file for TypeScript"
+  },
+  "New template tag": {
+    "prefix": "template",
+    "body": [
+      "<template>",
+      "$0",
+      "</template>",
+      ""
+    ]
   }
 }
