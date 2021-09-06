@@ -1,0 +1,19 @@
+{
+  "New Vue TypeScript SPA code": {
+    "prefix": "vuespa",
+    "body": [
+      "<template>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "  name: '${1:example}'",
+      "})",
+      "</script>",
+      ""
+    ],
+    "description": "Generates Vue SPA file for TypeScript"
+  }
+}
