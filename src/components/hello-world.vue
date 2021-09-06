@@ -18,10 +18,8 @@
   </p>
   <h3>count is: {{ count }}</h3>
   <button type="button" @click="increment">increment</button>
-  <button type="button" :disabled="isDisabled" @click="decrement">decrement</button>
-  <p>
-    Edit<code>components/hello-world.vue</code> to test hot module replacement.
-  </p>
+  <button type="button" @click="decrement" :disabled="isDisabled">decrement</button>
+  <p>Edit<code>components/hello-world.vue</code> to test hot module replacement.</p>
 </template>
 
 <script lang="ts">
