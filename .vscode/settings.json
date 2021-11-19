@@ -5,5 +5,4 @@
   "eslint.validate": [
     "typescript"
   ],
-  "vetur.experimental.templateInterpolationService": true
 }
